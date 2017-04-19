@@ -1,0 +1,334 @@
+{
+    "school_id":
+    {
+      "10001":{
+        "name":"八维教育",
+        "intro":"北京八维教育地处北京市海淀区中关村上地信息产业园区，位于首都教育圈（CED）、信息圈（CID）、科技圈（CSD）交汇处，南邻清华、北大、中科院，东接中关村高科技园，北望中关村软件园区。这里企业如织、高校林立、环境优雅、人文气息浓郁。学院教育设施完备，现拥有PC机万余台，专业苹果机240余台，并设有语音教室、投影机房、网络工程实验室、CCIE实验室以及各学院的独立工作室；此外，学院图书馆、形体训练室、体育健身房、多功能报告厅等配套设施也一应俱全。",
+        "logo":"http://www.bwie.net/images_ggysxy/1.jpg",
+        "major_id":{
+          "1000101": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000102": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000103": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1000104": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      },
+      "10002":{
+        "name":"积云教育",
+        "intro":"由知名投资人、资深教育人士和知名IT人士共同投资创建，是中国领先的“教育服务+IT管理”服务机构。积云教育隶属于北京优思安科技有限公司。积云教育致力于打造北京IT职业教育领导品牌，服务北京众多的IT企业和有前沿IT技术需求的传统企业。同时为广大学生提供一流的学习平台和广阔的发展平台。打造学生价值，提高企业价值，创造社会价值。公司成立之初就得到联想集团、方正集团、用友集团、北大生命科学园管委会等众多企业的大力支持。",
+        "logo":"http://www.usian.cn/Content/_Common/a/img/logo.png",
+        "major_id":{
+          "1000201": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000202": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000203": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1000204": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      },
+      "10003":{
+        "name":"黑马教育",
+        "intro":"黑马教育是一家比积云好的学校*************",
+        "logo":"http://www.itheima.com/images/logo.png",
+        "major_id":{
+          "1000301": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000302": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000303": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1000304": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      },
+      "10004":{
+        "name":"千峰教育",
+        "intro":"千锋教育隶属于北京千锋互联科技有限公司，一直秉承“用良心做教育”的理念，是中国IT职业教育领先品牌，全力打造互联网研发人才服务优质平台。千锋教育是中关村移动互联网产业联盟副理事长单位，中国软件协会教育培训委员会认证一级培训机构，中关村国际孵化软件协会授权中关村移动互联网学院，年培养学员数量20000人，合作院校超500所，合作企业超5000家，APP上线项目超1000个，每年有数十万名学员受益于千锋教育组织的技术研讨会、技术培训课、网络公开课及免费教学视频。",
+        "logo":"http://www.qfedu.com/images/new_logo.png",
+        "major_id":{
+          "1000401": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000402": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000403": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1000404": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      },
+      "10005":{
+        "name":"传智博客",
+        "intro":"江苏传智播客教育科技股份有限公司（简称传智播客）是一家专门致力于高素质软件开发人才培养的高科技公司。传智播客致力于为企业优选一流的人才的培训理念，以“学员自学入门教程，通过基础考核后进行强化培训”为招生原则，以“针对企业需求，重视基础理论建设，强化高端应用技能”为教学目标，以“高薪保证强大的资深教育团队”为教学后盾，彻底解决所有培训学员的后顾之忧，并解决用人企业难以招聘到合格人才的困扰。",
+        "logo":"http://www.itcast.cn/images/logo.png",
+        "major_id":{
+          "1000501": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000502": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000503": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1000504": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      },
+      "10006":{
+        "name":"软峰教育",
+        "intro":"　　北京软峰科技集团2005年成立，其总部坐落在首都高科技人才集聚地——中关村软件园，是集软件开发、项目外包、电子商务、人力资源服务于一体的大型IT企业。目前，旗下有信息科技有限公司、企业顾问管理有限公司、软峰时代科技有限公司、软峰科技IT学院、软峰科技湖北分公司、软峰科技湖南 分公司、软峰科技河南分公司、软峰科技山东分公司、软峰科技山西分公司、软峰科技黑龙江分公司，驻西安、岳阳、晋中、呼和浩特、松原、沈阳、石家庄、徐 州、成都、兰州、深圳、海口等地有18个分支机构。",
+        "logo":"http://www.chtip.org/Public/Home/images/logo.png",
+        "major_id":{
+          "1000601": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000602": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000603": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1000604": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      },
+      "10007":{
+        "name":"动力火车教育",
+        "intro":"动力火车是一家垃圾学校*************",
+        "major_id":{
+          "1000701": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000702": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000703": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1000704": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      },
+      "10008":{
+        "name":"达内教育",
+        "intro":"达内全称达内时代科技集团有限公司，是中国高端IT培训的领先品牌，致力于培养面向电信和金融领域的Java、C++、C#/.Net、软件测试、嵌入式、PHP、android等方面的中高端软件人才",
+        "logo":"http://www.tedu.cn/zhuzhan/image/logo.jpg",
+        "major_id":{
+          "1000801": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000802": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000803": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1000804": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      },
+      "10009":{
+        "name":"北大青鸟",
+        "intro":"成立于1994年的北大青鸟集团，以“大型软件开发环境－青鸟系统”享誉中国软件业的北大青鸟。紧密依托北京大学雄厚的技术资源和人才优势，在“青鸟工程的基础上逐步形成了青鸟基础软件产品、青鸟应用系统及软件开发平台、·产品系列，构筑了以软件和微电子技术为核心的产品体系。",
+        "logo":"http://www.china-accp.com/pc/img/logo.png",
+        "major_id":{
+          "1000901": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000902": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1000903": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1000904": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      },
+      "10010":{
+        "name":"安博教育",
+        "intro":"安博教育是一家垃圾学校*************",
+        "logo":"http://www.ambow.com/wp-content/uploads/2015/10/logo1.png",
+        "major_id":{
+          "1001001": {
+            "name":"HTML5",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1001002": {
+            "name":"ui设计",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"
+          },
+          "1001003": {
+            "name":"java",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"},
+          "1001004": {
+            "name":"c++",
+            "price":"19800",
+            "teaching_time":"5个月",
+            "expect_wage":"8000-15000",
+            "c_price":"18000"}
+        }
+      }
+    }
+}

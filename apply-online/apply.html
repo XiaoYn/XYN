@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>在线报名</title><link rel="stylesheet" type="text/css" href="css/apply.css"><link rel="stylesheet" type="text/css" href="common/css/bootstrap.css"><script type="text/javascript" src="common/js/jquery.js"></script><script type="text/javascript" src="common/js/bootstrap.js"></script></head><body><div id="b-wrap"><header><div class="fl logo"><a href="#"><img src="images/logo.png" alt=""></a><b>业内开拓者</b></div><div class="fl"><div class="input"><input type="text" placeholder="请输入要搜索的培训机构/专业"> <button>搜索</button></div><span></span></div></header><div class="wrap"><h2>为学生找最好的前途，为企业找最好的人才</h2><div class="box"><form class="form-horizontal" method="post"><div class="form-group"><label for="inputEmail3" class="col-sm-4 control-label">* 真实姓名</label><div class="col-sm-4"><input type="text" class="form-control" placeholder="请填写真实姓名" id="nam"></div></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* 性别</label><div class="col-sm-4"><input type="radio" name="sex" checked="checked"> 男&emsp;&emsp; <input type="radio" name="sex"> 女</div></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* 学历</label><div class="col-sm-4"><select type="text" class="form-control"><option>小学</option><option>初中</option><option>高中</option><option>大专</option><option>本科</option><option>硕士</option></select></div></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* 手机</label><div class="col-sm-4"><input type="tel" class="form-control" name="user_mobile" placeholder="请输入手机号" id="tel"></div></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* QQ</label><div class="col-sm-4"><input type="text" class="form-control" placeholder="请输入QQ号" id="qq"></div></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* 电子邮箱</label><div class="col-sm-4"><input type="email" class="form-control" name="user_email" placeholder="请输入电子邮箱" id="email"></div></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* 身份证号</label><div class="col-sm-4"><input type="text" class="form-control" placeholder="请输入身份证号" id="card"></div></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* 现状</label><div class="col-sm-4"><input type="text" class="form-control" placeholder="请输入您的现状"></div><span>选填</span></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* 了解渠道</label><div class="col-sm-4"><select type="text" class="form-control"><option>学校官网</option><option>网络搜索</option><option>朋友推荐</option><option>其他途径</option></select></div></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* 选择学校</label><div class="col-sm-4"><select type="text" class="form-control" id="school"><option>请选择</option></select></div></div><div class="form-group"><label for="inputPassword3" class="col-sm-4 control-label">* 预选课程</label><div class="col-sm-4"><select type="text" class="form-control" id="course"></select></div></div><div class="form-group"><div class="col-sm-offset-5 col-sm-5"><button type="submit" class="btn btn-default">预留位置</button></div></div></form></div></div><footer><p>京 ICP 备 14041720 号 -1 京 ICP 证 140622 号 京公网安备 11010502025474</p></footer></div></body><script>var jsSchool = document.getElementById('school');
+		var jsCourse = document.getElementById('course');
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = callBack;
+		xhr.open("get", "common/data/a.json", true);
+		xhr.send();
+		function callBack(){
+			if (xhr.status == 200 || xhr.status == 304) {
+				if (xhr.readyState == 4) {
+	
+					//处理数据
+//					console.log(xhr.responseText);
+	
+					//转换成json对象
+					var data = JSON.parse(xhr.responseText);
+	
+					var schoolArr = data['school_id'];
+//					console.log(schoolArr);
+					
+					//添加学校到select
+					for(var i in schoolArr){  
+//				       alert(i);  
+				       var schoolStr = schoolArr[i]['name'];
+//				       alert(schoolStr);
+				       jsSchool.innerHTML += '<option>' + schoolStr + '</option>'; 
+				       //选择学校在对应的jsCourse中添加对应的课程
+				       var courseArr = [];
+				       jsSchool.onchange = function(){
+				       		jsCourse.innerHTML = '';
+							var schoolString = this.value;
+							if(schoolString=="请选择"){
+//								console.log(schoolString);
+								alert("请选择学校");
+							}else{
+								console.log(schoolString);
+								for (var j in schoolArr) {
+									if (schoolString == schoolArr[j]['name']) {
+										courseArr = schoolArr[j]['major_id'];
+//										console.log(courseArr);
+										break;
+									}
+								}
+								for (var m in courseArr) {
+									var courseStr = courseArr[m]['name'];
+//									console.log(courseStr);
+									jsCourse.innerHTML += '<option>' + courseStr + '</option>';
+								}
+							}
+						}
+				    } 
+				}
+			}
+			$('.btn').attr({'disabled':'true'});
+			$("body").on("change",function(){
+				$('.btn').attr({'disabled':(!$("#nam").val()||!$("#tel").val()||!$("#email").val()
+				||!$("#qq").val()||!$("#card").val()||!$("#course").val())});
+			});
+		}</script></html>
